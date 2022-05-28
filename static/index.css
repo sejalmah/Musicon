@@ -1,0 +1,91 @@
+*{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header{
+    display: block;
+    text-align:center;
+    margin-left:550;
+    font-weight: bold;
+    font-family: 'Bigelow Rules';
+    /* font-family: cursive; */
+    font-size: 40px;
+    color:white;
+}
+#heading{
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Bigelow Rules';
+    font-size: 40px;
+    color:white;
+}
+#left{
+    width: 50%;
+    float: left;
+    height: 80%;
+    margin: auto;
+    padding-bottom:25px;
+    text-align: center;
+}
+img {
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+    width: 85%;
+}
+#emotion{
+    text-align:center;
+    font-family: 'Bigelow Rules';
+    font-size: 36px;
+    color: black;
+}
+.outer-shadow {
+    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    /* --outer-shadow: 3px 3px 3px white, -3px -3px 3px white; */
+    box-shadow: var(--outer-shadow);
+}
+#right{
+    width: 50%;
+    float: left;
+    height: 100%;
+    margin: auto;
+    padding-bottom:25px;
+    text-align: center;
+}
+#music{
+    text-align:center;
+    font-family: 'Bigelow Rules';
+    font-size: 36px;
+    color:black;
+}
+#Result{
+    padding: 15px;
+    width: 90%;
+    float: left;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom:15px;
+}
+.inner-shadow {
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    box-shadow: var(--inner-shadow);
+}
